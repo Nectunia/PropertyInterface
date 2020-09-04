@@ -9,9 +9,18 @@
 		<link href="tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="jquery.js"></script>
 		<script type="text/javascript" src="dynsections.js"></script>
+		<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
 		<link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+  $(document).ready(function() { init_search(); });
+/* @license-end */
+</script>
 		<link href="doxygen.css" rel="stylesheet" type="text/css" />
 		<link href="custom.css" rel="stylesheet" type="text/css"/>
 <link href="custom_dark_theme.css" rel="stylesheet" type="text/css"/>
@@ -27,6 +36,21 @@
 							<div id="projectname">PropertyInterface
 							</div>
 						</td>
+						<td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.svg"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Search" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
+          </span>
+        </div>
+</td>
 					</tr>
 				</tbody>
 			</table>
@@ -37,17 +61,23 @@
 var searchBox = new SearchBox("searchBox", "search",false,'Search');
 /* @license-end */
 </script>
-<script type="text/javascript" src="menudata.js"></script>
-<script type="text/javascript" src="menu.js"></script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-$(function() {
-  initMenu('',true,false,'search.php','Search');
-  $(document).ready(function() { init_search(); });
-});
-/* @license-end */</script>
-<div id="main-nav"></div>
-</div><!-- top -->
+$(document).ready(function(){initNavTree('index.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -62,13 +92,75 @@ $(function() {
 </iframe>
 </div>
 
-<div class="header">
+<div class="PageDoc"><div class="header">
   <div class="headertitle">
 <div class="title">PropertyInterface Documentation</div>  </div>
 </div><!--header-->
 <div class="contents">
+<div class="textblock"><p><a class="anchor" id="md_custommainpage"></a>Welcome to the PropertyInterface! <br  />
+</p>
+<p>You'll see here how to use or to extand this powerfull asset. But first lets see what this asset can do for you. <br  />
+</p>
+<h2><a class="anchor" id="autotoc_md0"></a>
+Why use this Asset ?</h2>
+<p><img src="https://github.com/Nectunia/PropertyInterface/blob/gh-pages/Diagrams/WhyUseThisAsset.png" alt="WhyUseThisAsset" class="inline"/></p>
+<h2><a class="anchor" id="autotoc_md1"></a>
+What does this Asset do ?</h2>
+<p>This asset allow you to easily add Property to GameObject. <br  />
+</p><ul>
+<li>Each Property is a component so it can be linked to your other Components. <br  />
+</li>
+<li>Each Property can be found by script via a powerfull and easy to use custom Tag system. <br  />
+</li>
+<li>Each Property values can be filled with raw values or sourced from other Component. <br  />
+</li>
+</ul>
+<p>A complete and easy to use library allow you to handle Property by script as well. <br  />
+</p>
+<h2><a class="anchor" id="autotoc_md2"></a>
+How does it work ?</h2>
+<p><img src="https://github.com/Nectunia/PropertyInterface/blob/gh-pages/Diagrams/HowItWorks.png" alt="HowDoesItWorks" class="inline"/> <br  />
+</p>
+<ol type="1">
+<li>Add Property to GameObject. <br  />
+</li>
+<li>Select a Tag for the Property. <br  />
+</li>
+<li>Select a Tag in your custom component _(the only thing you have to script)_. <br  />
+</li>
+<li>Your custom component will now be able to interact with all Properties in all GameObjects wich have the same Tag.</li>
+</ol>
+<p><em>Each Property is a component so it can be specificaly refered to your custom component instead of using Tag sytem</em></p>
+<h2><a class="anchor" id="autotoc_md3"></a>
+What about performance ?</h2>
+<p>As you can see below, a Property is not the lightest component there is. However it will take a significant amount of Property before it really affects the performance of your game. <br  />
+ <img src="https://github.com/Nectunia/PropertyInterface/blob/gh-pages/Diagrams/BenchMark.png" alt="BenchMark" class="inline"/></p>
+<p><em>All tests have been done with the following configuration :</em></p><ul>
+<li><em>OS : Windows 10 Familly 64Bits</em> <br  />
+</li>
+<li><em>UNITY : 2019.3.0f6</em> <br  />
+</li>
+<li><em>CPU : Intel Core I7-4800MQ (4 x 2.7GHz)</em> <br  />
+</li>
+<li><em>GPU : Nvidia GeForce GTX870m 3GB GDDR5</em></li>
+<li><em>RAM : 8GB DDR3 800Mhz</em> <br  />
+</li>
+<li><em>HD : Sata 7200rpm</em> <br  />
+ </li>
+</ul>
+</div></div><!-- PageDoc -->
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
+		<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+			<ul>
+				<li class="footer">
+					Generated on Fri Sep 4 2020 22:06:56 for PropertyInterface by <a href="http://www.doxygen.org/index.html">
+					<img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.20.
+					Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+				</li>
+			</ul>
+		</div>
 		<script src="custom.js"></script>
 	</body>
 </html>

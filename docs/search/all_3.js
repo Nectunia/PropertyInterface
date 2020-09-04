@@ -13,5 +13,6 @@ var searchData=
   ['criticalchance_72',['CriticalChance',['../class_nectunia_1_1_utility_1_1_critical_chance.html',1,'Nectunia.Utility.CriticalChance'],['../class_nectunia_1_1_utility_1_1_critical_chance.html#ad66c95960905ad0ddc1b57657c403949',1,'Nectunia.Utility.CriticalChance.CriticalChance()']]],
   ['criticalchance_2ecs_73',['CriticalChance.cs',['../_critical_chance_8cs.html',1,'']]],
   ['customicon_2ecs_74',['CustomIcon.cs',['../_custom_icon_8cs.html',1,'']]],
-  ['customstyle_2ecs_75',['CustomStyle.cs',['../_custom_style_8cs.html',1,'']]]
+  ['custommainpage_2emd_75',['custommainpage.md',['../custommainpage_8md.html',1,'']]],
+  ['customstyle_2ecs_76',['CustomStyle.cs',['../_custom_style_8cs.html',1,'']]]
 ];
