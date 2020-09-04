@@ -44,17 +44,14 @@ var NAVTREE =
         [ "Properties", "functions_prop.html", null ],
         [ "Events", "functions_evnt.html", null ]
       ] ]
-    ] ],
-    [ "Files", "files.html", [
-      [ "File List", "files.html", "files_dup" ]
     ] ]
   ] ]
 ];
 
 var NAVTREEINDEX =
 [
-"_advanced_reorderable_list_8cs.html",
-"class_nectunia_1_1_property_interface_1_1_property_trigger_handler.html#a4de4609bd1d99f097e896bd14bb0ce5f"
+"annotated.html",
+"class_nectunia_1_1_property_interface_1_1_tags.html#ac1e85b741ed0d9e97223bb498e788677"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
