@@ -1,4 +1,4 @@
-Welcome to the PropertyInterface wiki!  
+Welcome to the PropertyInterface!  
   
 You'll see here how to use or to extand this powerfull asset. But first lets see what this asset can do for you.  
   
