@@ -51,7 +51,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"class_nectunia_1_1_property_interface_1_1_tags.html#ac1e85b741ed0d9e97223bb498e788677"
+"index.html#autotoc_md0"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
