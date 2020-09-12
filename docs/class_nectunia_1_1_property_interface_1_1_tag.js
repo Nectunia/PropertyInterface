@@ -1,5 +1,8 @@
 var class_nectunia_1_1_property_interface_1_1_tag =
 [
+    [ "ValuesType", "class_nectunia_1_1_property_interface_1_1_tag.html#a95504efcce4dd1d4fbf7b2122bc0adc7", null ],
+    [ "GetSelectedType", "class_nectunia_1_1_property_interface_1_1_tag.html#ac0ff6b927e652be84ed2a1160efe42dd", null ],
+    [ "GetSystemType", "class_nectunia_1_1_property_interface_1_1_tag.html#aa8a16591bfd3e1b9e0454b6c23b71d33", null ],
     [ "ValueType", "class_nectunia_1_1_property_interface_1_1_tag.html#ad370ed8a33ef8e1442fe5ae09875fd03", [
       [ "Boolean", "class_nectunia_1_1_property_interface_1_1_tag.html#ad370ed8a33ef8e1442fe5ae09875fd03a27226c864bac7454a8504f8edb15d95b", null ],
       [ "Color", "class_nectunia_1_1_property_interface_1_1_tag.html#ad370ed8a33ef8e1442fe5ae09875fd03acb5feb1b7314637725a2e73bdc9f7295", null ],
@@ -14,9 +17,8 @@ var class_nectunia_1_1_property_interface_1_1_tag =
       [ "Vector3Int", "class_nectunia_1_1_property_interface_1_1_tag.html#ad370ed8a33ef8e1442fe5ae09875fd03aeffc5a7fd17769ddfa0562a5673401ac", null ],
       [ "Vector4", "class_nectunia_1_1_property_interface_1_1_tag.html#ad370ed8a33ef8e1442fe5ae09875fd03acf637ffa2663b40ae52857aa0bdb1ec3", null ]
     ] ],
-    [ "GetSelectedType", "class_nectunia_1_1_property_interface_1_1_tag.html#ac0ff6b927e652be84ed2a1160efe42dd", null ],
+    [ "DEFAULT_VALUESTYPE", "class_nectunia_1_1_property_interface_1_1_tag.html#a52075e52b471745f939df4edfd2df4c9", null ],
     [ "Icon", "class_nectunia_1_1_property_interface_1_1_tag.html#a9fb540e5e28471fe976cf49628f28937", null ],
     [ "Id", "class_nectunia_1_1_property_interface_1_1_tag.html#a3d675858fbb322c00080b69043daefaa", null ],
-    [ "Name", "class_nectunia_1_1_property_interface_1_1_tag.html#a044798b9d00986453a1cfc2d73880023", null ],
-    [ "ValuesType", "class_nectunia_1_1_property_interface_1_1_tag.html#a95504efcce4dd1d4fbf7b2122bc0adc7", null ]
+    [ "Name", "class_nectunia_1_1_property_interface_1_1_tag.html#a044798b9d00986453a1cfc2d73880023", null ]
 ];

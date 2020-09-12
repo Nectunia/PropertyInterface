@@ -1,10 +1,22 @@
 var hierarchy =
 [
     [ "Nectunia.Utility.CriticalChance", "class_nectunia_1_1_utility_1_1_critical_chance.html", null ],
+    [ "Nectunia.Utility.CustomIcon", "class_nectunia_1_1_utility_1_1_custom_icon.html", null ],
+    [ "Nectunia.PropertyInterface.CustomStyle", "class_nectunia_1_1_property_interface_1_1_custom_style.html", null ],
     [ "Nectunia.Utility.DeepCopy", "class_nectunia_1_1_utility_1_1_deep_copy.html", null ],
+    [ "Nectunia.Utility.EComponent", "class_nectunia_1_1_utility_1_1_e_component.html", null ],
+    [ "Nectunia.PropertyInterface.CustomStyle.EditorGUI_PropertyInterface", "class_nectunia_1_1_property_interface_1_1_custom_style_1_1_editor_g_u_i___property_interface.html", null ],
+    [ "Nectunia.PropertyInterface.EditorGUI_PropertyInterface", "class_nectunia_1_1_property_interface_1_1_editor_g_u_i___property_interface.html", null ],
+    [ "Nectunia.PropertyInterface.EditorGUILayout_PropertyInterface", "class_nectunia_1_1_property_interface_1_1_editor_g_u_i_layout___property_interface.html", null ],
     [ "EditorWindow", null, [
       [ "Nectunia.PropertyInterface.Window_Tags", "class_nectunia_1_1_property_interface_1_1_window___tags.html", null ]
     ] ],
+    [ "Nectunia.PropertyInterface.EGameObject", "class_nectunia_1_1_property_interface_1_1_e_game_object.html", null ],
+    [ "Nectunia.Utility.EObject", "class_nectunia_1_1_utility_1_1_e_object.html", null ],
+    [ "Nectunia.Utility.ETransform", "class_nectunia_1_1_utility_1_1_e_transform.html", null ],
+    [ "Nectunia.Utility.ExtendedAssetDatabase", "class_nectunia_1_1_utility_1_1_extended_asset_database.html", null ],
+    [ "Nectunia.PropertyInterface.ExtensionTagList", "class_nectunia_1_1_property_interface_1_1_extension_tag_list.html", null ],
+    [ "Nectunia.PropertyInterface.ExtensionValuesType", "class_nectunia_1_1_property_interface_1_1_extension_values_type.html", null ],
     [ "IEquatable", null, [
       [ "Nectunia.PropertyInterface.TagID", "struct_nectunia_1_1_property_interface_1_1_tag_i_d.html", null ]
     ] ],
@@ -27,10 +39,8 @@ var hierarchy =
       [ "Nectunia.Utility.EndReadOnlyGroupAttribute", "class_nectunia_1_1_utility_1_1_end_read_only_group_attribute.html", null ],
       [ "Nectunia.Utility.ReadOnlyAttribute", "class_nectunia_1_1_utility_1_1_read_only_attribute.html", null ]
     ] ],
-    [ "PropertyDrawer", null, [
-      [ "FoldPropertyDrawer", "class_fold_property_drawer.html", null ]
-    ] ],
     [ "Nectunia.PropertyInterface.PropertyInterfaceMenu", "class_nectunia_1_1_property_interface_1_1_property_interface_menu.html", null ],
+    [ "Nectunia.PropertyInterface.PropertySerialization", "class_nectunia_1_1_property_interface_1_1_property_serialization.html", null ],
     [ "Nectunia.PropertyInterface.PropertyValue", "class_nectunia_1_1_property_interface_1_1_property_value.html", null ],
     [ "ReorderableList", null, [
       [ "Nectunia.Utility.AdvancedReorderableList", "class_nectunia_1_1_utility_1_1_advanced_reorderable_list.html", null ]
@@ -40,5 +50,6 @@ var hierarchy =
     ] ],
     [ "Nectunia.PropertyInterface.Tag", "class_nectunia_1_1_property_interface_1_1_tag.html", null ],
     [ "Nectunia.PropertyInterface.TagListWrapper", "class_nectunia_1_1_property_interface_1_1_tag_list_wrapper.html", null ],
+    [ "Nectunia.PropertyInterface.CustomStyle.TagsList", "class_nectunia_1_1_property_interface_1_1_custom_style_1_1_tags_list.html", null ],
     [ "Nectunia.Utility.Timer", "class_nectunia_1_1_utility_1_1_timer.html", null ]
 ];

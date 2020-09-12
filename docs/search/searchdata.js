@@ -3,11 +3,11 @@ var indexSectionsWithContent =
   0: "_abcdefgilmnoprstuvw",
   1: "abcdefmprtw",
   2: "n",
-  3: "abcdefginorstuvw",
-  4: "_dino",
+  3: "abcdefgilnoprstuvw",
+  4: "_dimnost",
   5: "asv",
   6: "abcdfilmsv",
-  7: "abceilstv",
+  7: "abceilstvw",
   8: "o"
 };
 

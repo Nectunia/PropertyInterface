@@ -121,6 +121,10 @@ dd code {
 	color: #D8D8D8;
 }
 
+td code{
+	float: right;
+}
+
 /*********************************************/
 /**         Table of Contents (ToC)         **/
 /*********************************************/
@@ -144,6 +148,22 @@ table.doxtable tr:nth-child(even) td {
 div.header {
 	background: transparent;
 	border-bottom: 1px solid #32363d;
+}
+
+div.header .summary {
+	background: #282923;
+	position: fixed;
+	width: auto;
+	text-align: left;
+	margin-right: 20px;
+}
+
+div.header .headertitle .title{
+	margin: 15px 2px 10px 2px;
+}
+
+.contents a + .groupheader {
+    margin-top: 10px;
 }
 
 /*********************************************/

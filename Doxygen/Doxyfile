@@ -756,7 +756,7 @@ FILE_VERSION_FILTER    =
 # DoxygenLayout.xml, doxygen will parse it automatically even if the LAYOUT_FILE
 # tag is left empty.
 
-LAYOUT_FILE            =
+LAYOUT_FILE            = Layout/customLayout.xml
 
 # The CITE_BIB_FILES tag can be used to specify one or more bib files containing
 # the reference definitions. This must be a list of .bib files. The .bib
@@ -933,7 +933,8 @@ RECURSIVE              = YES
 # Note that relative paths are relative to the directory from which doxygen is
 # run.
 
-EXCLUDE                = F:/_unityProjects/Nectunia/PropertyInterface/Packages/PropertyInterface/Scripts/Tests
+EXCLUDE                = F:/_unityProjects/Nectunia/PropertyInterface/Packages/PropertyInterface/Scripts/Tests \
+                         ../Unity/Nectunia/PropertyInterface/Packages/PropertyInterface/Scripts/Tests
 
 # The EXCLUDE_SYMLINKS tag can be used to select whether or not files or
 # directories that are symbolic links (a Unix file system feature) are excluded

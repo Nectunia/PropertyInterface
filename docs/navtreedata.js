@@ -25,25 +25,16 @@
 var NAVTREE =
 [
   [ "PropertyInterface", "index.html", [
-    [ "Packages", "namespaces.html", [
-      [ "Why use this Asset ?", "index.html#autotoc_md0", null ],
-      [ "What does this Asset do ?", "index.html#autotoc_md1", null ],
-      [ "How does it work ?", "index.html#autotoc_md2", null ],
-      [ "What about performance ?", "index.html#autotoc_md3", null ],
-      [ "Packages", "namespaces.html", "namespaces_dup" ]
-    ] ],
-    [ "Classes", "annotated.html", [
-      [ "Class List", "annotated.html", "annotated_dup" ],
-      [ "Class Index", "classes.html", null ],
-      [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
-      [ "Class Members", "functions.html", [
-        [ "All", "functions.html", "functions_dup" ],
-        [ "Functions", "functions_func.html", "functions_func" ],
-        [ "Variables", "functions_vars.html", null ],
-        [ "Enumerations", "functions_enum.html", null ],
-        [ "Properties", "functions_prop.html", null ],
-        [ "Events", "functions_evnt.html", null ]
-      ] ]
+    [ "Class List", "annotated.html", "annotated" ],
+    [ "Class Index", "classes.html", null ],
+    [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
+    [ "Class Members", "functions.html", [
+      [ "All", "functions.html", "functions_dup" ],
+      [ "Functions", "functions_func.html", "functions_func" ],
+      [ "Variables", "functions_vars.html", null ],
+      [ "Enumerations", "functions_enum.html", null ],
+      [ "Properties", "functions_prop.html", null ],
+      [ "Events", "functions_evnt.html", null ]
     ] ]
   ] ]
 ];
@@ -51,7 +42,8 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"index.html#autotoc_md0"
+"class_nectunia_1_1_property_interface_1_1_property_interface_menu.html#ab502832b605a8eaa1ebe01e7ce68681f",
+"functions_p.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
