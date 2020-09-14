@@ -21,6 +21,5 @@ var namespace_nectunia_1_1_property_interface =
     [ "TagID", "struct_nectunia_1_1_property_interface_1_1_tag_i_d.html", "struct_nectunia_1_1_property_interface_1_1_tag_i_d" ],
     [ "TagListWrapper", "class_nectunia_1_1_property_interface_1_1_tag_list_wrapper.html", "class_nectunia_1_1_property_interface_1_1_tag_list_wrapper" ],
     [ "Tags", "class_nectunia_1_1_property_interface_1_1_tags.html", "class_nectunia_1_1_property_interface_1_1_tags" ],
-    [ "TypedValue", "class_nectunia_1_1_property_interface_1_1_typed_value.html", "class_nectunia_1_1_property_interface_1_1_typed_value" ],
-    [ "Window_Tags", "class_nectunia_1_1_property_interface_1_1_window___tags.html", "class_nectunia_1_1_property_interface_1_1_window___tags" ]
+    [ "TypedValue", "class_nectunia_1_1_property_interface_1_1_typed_value.html", "class_nectunia_1_1_property_interface_1_1_typed_value" ]
 ];

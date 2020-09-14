@@ -3,7 +3,7 @@ Welcome to the PropertyInterface!
 You'll see here how to use or to extand this powerfull asset. But first lets see what this asset can do for you.  
   
 ## Why use this Asset ?
-![WhyUseThisAsset](https://github.com/Nectunia/PropertyInterface/blob/gh-pages/Diagrams/WhyUseThisAsset.png) 
+![WhyUseThisAsset](../Diagrams/WhyUseThisAsset.png) 
   
 ## What does this Asset do ?
 This asset allow you to easily add Property to GameObject.  
@@ -15,7 +15,7 @@ A complete and easy to use library allow you to handle Property by script as wel
   
 ## How does it work ?
   
-![HowDoesItWorks](https://github.com/Nectunia/PropertyInterface/blob/gh-pages/Diagrams/HowItWorks.png)  
+![HowDoesItWorks](../Diagrams/HowItWorks.png)  
   
 1.  Add Property to GameObject.  
 2. Select a Tag for the Property.  
@@ -26,7 +26,7 @@ _Each Property is a component so it can be specificaly refered to your custom co
   
 ## What about performance ?
 As you can see below, a Property is not the lightest component there is. However it will take a significant amount of Property before it really affects the performance of your game.  
-![BenchMark](https://github.com/Nectunia/PropertyInterface/blob/gh-pages/Diagrams/BenchMark.png)
+![BenchMark](../Diagrams/BenchMark.png)
   
 _All tests have been done with the following configuration :_
 * _OS : Windows 10 Familly 64Bits_  

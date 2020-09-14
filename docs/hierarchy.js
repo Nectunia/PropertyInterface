@@ -8,9 +8,6 @@ var hierarchy =
     [ "Nectunia.PropertyInterface.CustomStyle.EditorGUI_PropertyInterface", "class_nectunia_1_1_property_interface_1_1_custom_style_1_1_editor_g_u_i___property_interface.html", null ],
     [ "Nectunia.PropertyInterface.EditorGUI_PropertyInterface", "class_nectunia_1_1_property_interface_1_1_editor_g_u_i___property_interface.html", null ],
     [ "Nectunia.PropertyInterface.EditorGUILayout_PropertyInterface", "class_nectunia_1_1_property_interface_1_1_editor_g_u_i_layout___property_interface.html", null ],
-    [ "EditorWindow", null, [
-      [ "Nectunia.PropertyInterface.Window_Tags", "class_nectunia_1_1_property_interface_1_1_window___tags.html", null ]
-    ] ],
     [ "Nectunia.PropertyInterface.EGameObject", "class_nectunia_1_1_property_interface_1_1_e_game_object.html", null ],
     [ "Nectunia.Utility.EObject", "class_nectunia_1_1_utility_1_1_e_object.html", null ],
     [ "Nectunia.Utility.ETransform", "class_nectunia_1_1_utility_1_1_e_transform.html", null ],

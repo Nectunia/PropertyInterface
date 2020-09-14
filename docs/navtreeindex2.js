@@ -1,10 +1,5 @@
 var NAVTREEINDEX2 =
 {
-"functions_v.html":[3,0,18],
-"functions_vars.html":[3,2],
-"functions_w.html":[3,0,19],
-"hierarchy.html":[2],
-"index.html":[],
 "namespace_nectunia.html":[0,0],
 "namespace_nectunia_1_1_property_interface.html":[0,0,0],
 "namespace_nectunia_1_1_utility.html":[0,0,1],
