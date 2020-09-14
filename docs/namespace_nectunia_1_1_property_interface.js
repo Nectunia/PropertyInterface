@@ -13,7 +13,6 @@ var namespace_nectunia_1_1_property_interface =
     [ "Property", "class_nectunia_1_1_property_interface_1_1_property.html", "class_nectunia_1_1_property_interface_1_1_property" ],
     [ "Property2", "class_nectunia_1_1_property_interface_1_1_property2.html", "class_nectunia_1_1_property_interface_1_1_property2" ],
     [ "Property3", "class_nectunia_1_1_property_interface_1_1_property3.html", "class_nectunia_1_1_property_interface_1_1_property3" ],
-    [ "PropertyInterfaceMenu", "class_nectunia_1_1_property_interface_1_1_property_interface_menu.html", "class_nectunia_1_1_property_interface_1_1_property_interface_menu" ],
     [ "PropertyOptim", "class_nectunia_1_1_property_interface_1_1_property_optim.html", "class_nectunia_1_1_property_interface_1_1_property_optim" ],
     [ "PropertySerialization", "class_nectunia_1_1_property_interface_1_1_property_serialization.html", "class_nectunia_1_1_property_interface_1_1_property_serialization" ],
     [ "PropertyTriggerHandler", "class_nectunia_1_1_property_interface_1_1_property_trigger_handler.html", "class_nectunia_1_1_property_interface_1_1_property_trigger_handler" ],

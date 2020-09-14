@@ -39,7 +39,6 @@ var hierarchy =
       [ "Nectunia.Utility.EndReadOnlyGroupAttribute", "class_nectunia_1_1_utility_1_1_end_read_only_group_attribute.html", null ],
       [ "Nectunia.Utility.ReadOnlyAttribute", "class_nectunia_1_1_utility_1_1_read_only_attribute.html", null ]
     ] ],
-    [ "Nectunia.PropertyInterface.PropertyInterfaceMenu", "class_nectunia_1_1_property_interface_1_1_property_interface_menu.html", null ],
     [ "Nectunia.PropertyInterface.PropertySerialization", "class_nectunia_1_1_property_interface_1_1_property_serialization.html", null ],
     [ "Nectunia.PropertyInterface.PropertyValue", "class_nectunia_1_1_property_interface_1_1_property_value.html", null ],
     [ "ReorderableList", null, [

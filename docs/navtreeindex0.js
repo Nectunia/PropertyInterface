@@ -248,6 +248,6 @@ var NAVTREEINDEX0 =
 "class_nectunia_1_1_property_interface_1_1_property3.html#ab85c36b6d6394a708452d776f1d41fde":[0,0,0,9,0],
 "class_nectunia_1_1_property_interface_1_1_property3.html#acfa6a735bb45a267a52e5edfc4f5b8fe":[0,0,0,9,2],
 "class_nectunia_1_1_property_interface_1_1_property3.html#ae590f3b036fd3a60257e80d8556c3f39":[0,0,0,9,3],
-"class_nectunia_1_1_property_interface_1_1_property_interface_menu.html":[0,0,0,10],
-"class_nectunia_1_1_property_interface_1_1_property_interface_menu.html#a987984437e4ff5dfc0bddf9a04cc5a55":[0,0,0,10,1]
+"class_nectunia_1_1_property_interface_1_1_property_optim.html":[0,0,0,10],
+"class_nectunia_1_1_property_interface_1_1_property_optim.html#a02aec081c54ffe7b35055e78f4365752":[0,0,0,10,35]
 };

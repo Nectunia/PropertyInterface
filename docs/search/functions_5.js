@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['focus_275',['Focus',['../class_nectunia_1_1_utility_1_1_advanced_reorderable_list.html#a93399937fc164db524ec12e99c2dd5ca',1,'Nectunia::Utility::AdvancedReorderableList']]]
+  ['focus_268',['Focus',['../class_nectunia_1_1_utility_1_1_advanced_reorderable_list.html#a93399937fc164db524ec12e99c2dd5ca',1,'Nectunia::Utility::AdvancedReorderableList']]]
 ];

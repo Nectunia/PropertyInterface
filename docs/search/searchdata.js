@@ -3,7 +3,7 @@ var indexSectionsWithContent =
   0: "_abcdefgilmnoprstuvw",
   1: "abcdefmprtw",
   2: "n",
-  3: "abcdefgilnoprstuvw",
+  3: "abcdefgilnoprstuw",
   4: "_dimnost",
   5: "asv",
   6: "abcdfilmsv",
