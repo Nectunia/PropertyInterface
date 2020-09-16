@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['tagiconwidth_378',['TagIconWidth',['../class_nectunia_1_1_property_interface_1_1_editor_g_u_i___property_interface.html#ab92ee1b03225930057a99bd66ed7d3f1',1,'Nectunia.PropertyInterface.EditorGUI_PropertyInterface.TagIconWidth()'],['../class_nectunia_1_1_property_interface_1_1_editor_g_u_i_layout___property_interface.html#a294a63b18e83cfd3dde104905c670448',1,'Nectunia.PropertyInterface.EditorGUILayout_PropertyInterface.TagIconWidth()']]]
+  ['singlelineiconwidth_381',['SingleLineIconWidth',['../class_nectunia_1_1_property_interface_1_1_editor_g_u_i___property_interface.html#a3e883b5a7630adc9992448c1b799ec83',1,'Nectunia.PropertyInterface.EditorGUI_PropertyInterface.SingleLineIconWidth()'],['../class_nectunia_1_1_property_interface_1_1_editor_g_u_i_layout___property_interface.html#a759ef233f0699be817726f46b6223f3c',1,'Nectunia.PropertyInterface.EditorGUILayout_PropertyInterface.SingleLineIconWidth()']]]
 ];

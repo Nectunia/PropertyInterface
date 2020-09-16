@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['name_373',['Name',['../class_nectunia_1_1_property_interface_1_1_tag.html#a044798b9d00986453a1cfc2d73880023',1,'Nectunia::PropertyInterface::Tag']]],
-  ['null_5fvalue_374',['NULL_VALUE',['../class_nectunia_1_1_property_interface_1_1_property_serialization.html#a200f12fec576079e17e36cdd73cc11d3',1,'Nectunia::PropertyInterface::PropertySerialization']]]
+  ['mininlinevectorfieldwidth_376',['MinInlineVectorFieldWidth',['../class_nectunia_1_1_property_interface_1_1_editor_g_u_i___property_interface.html#ae27b476ee59fdd97fc8a4e70dcc3f524',1,'Nectunia.PropertyInterface.EditorGUI_PropertyInterface.MinInlineVectorFieldWidth()'],['../class_nectunia_1_1_property_interface_1_1_editor_g_u_i_layout___property_interface.html#acae748ccad37745c0d71c8baadec9882',1,'Nectunia.PropertyInterface.EditorGUILayout_PropertyInterface.MinInlineVectorFieldWidth()']]]
 ];

@@ -31,7 +31,6 @@
 			<table cellspacing="0" cellpadding="0">
 				<tbody>
 					<tr style="height: 56px;">
-						<td id="projectlogo"><img alt="Logo" src="Logo-C-trespetit.png"/></td>
 						<td id="projectalign" style="padding-left: 0.5em;">
 							<div id="projectname">PropertyInterface
 							</div>
@@ -95,6 +94,7 @@ $(document).ready(function(){initNavTree('class_nectunia_1_1_property_interface_
 <div class="header">
   <div class="summary">
 <a href="#properties">Properties</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#events">Events</a> &#124;
@@ -103,7 +103,31 @@ $(document).ready(function(){initNavTree('class_nectunia_1_1_property_interface_
 <div class="title">Nectunia.PropertyInterface.Tags Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="dynheader">
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>List of <a class="el" href="class_nectunia_1_1_property_interface_1_1_tag.html" title="Class used by MonoBehaviorTagged component to know wich other MonoBehaviorTagged component it can int...">Tag</a> stored in a ScriptableObject file in the Asset folder. </p>
+<ol type="1">
+<li>This is a singleton. /!\ You should only acces it by using "Tags.Instance". /!&lt;br&gt;</li>
+<li><a class="el" href="class_nectunia_1_1_property_interface_1_1_tags.html" title="List of Tag stored in a ScriptableObject file in the Asset folder.">Tags</a> are automaticaly load when Unity Editor is opened so you don't need to instanciate them.<br  />
+</li>
+<li>If many file exist only the first one found at random will be load.<br  />
+ </li>
+</ol>
+<div class="fragment"><div class="line"><span class="comment">// To get the Tag list</span></div>
+<div class="line">List&lt;Tag&gt; tagsList = Tags.Instance.TagsList;</div>
+<div class="line"> </div>
+<div class="line"><span class="comment">// To get a specifique Tag with it&#39;s TagID</span></div>
+<div class="line"><span class="keywordtype">long</span> tagID1 = 111111111; <span class="comment">// TagID have an implicite conversion with long value</span></div>
+<div class="line">TagID tagID2 = tagsList[1].Id;</div>
+<div class="line"> </div>
+<div class="line">Tag tag1 = tagsList.Find(t =&gt; t.Id == tagID1);</div>
+<div class="line">Tag tag2 = tagsList.Find(t =&gt; t.Id == tagID2);</div>
+<div class="line">Tag tag3 = tagsList.Find(t =&gt; t.Id == 3333333333); <span class="comment">// TagID have an implicite conversion with long value</span></div>
+<div class="line"> </div>
+<div class="line"><span class="comment">// To set a specifique Tag</span></div>
+<div class="line">tagsList[1] = tag1;</div>
+<div class="line">Tags.Instance.TagsList[0] = tag2;</div>
+<div class="line">Tags.Instance.TagsList[3].Id = 44444444; <span class="comment">// TagID have an implicite conversion with long value</span></div>
+</div><!-- fragment --> </div><div class="dynheader">
 Inheritance diagram for Nectunia.PropertyInterface.Tags:</div>
 <div class="dyncontent">
  <div class="center">
@@ -113,11 +137,23 @@ Inheritance diagram for Nectunia.PropertyInterface.Tags:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:a20c0c4d1f657187ae3c27dab88ebfa22"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_nectunia_1_1_property_interface_1_1_tag.html">Tag</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nectunia_1_1_property_interface_1_1_tags.html#a20c0c4d1f657187ae3c27dab88ebfa22">TagsList</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a20c0c4d1f657187ae3c27dab88ebfa22"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="class_nectunia_1_1_property_interface_1_1_tag.html" title="Class used by MonoBehaviorTagged component to know wich other MonoBehaviorTagged component it can int...">Tag</a> list.  <a href="class_nectunia_1_1_property_interface_1_1_tags.html#a20c0c4d1f657187ae3c27dab88ebfa22">More...</a><br /></td></tr>
 <tr class="separator:a20c0c4d1f657187ae3c27dab88ebfa22"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afc75f76f530bf9914c0b0408045abf85"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nectunia_1_1_property_interface_1_1_tags.html#afc75f76f530bf9914c0b0408045abf85">AssetFilePath</a><code> [get]</code></td></tr>
+<tr class="memdesc:afc75f76f530bf9914c0b0408045abf85"><td class="mdescLeft">&#160;</td><td class="mdescRight">The path where the <a class="el" href="class_nectunia_1_1_property_interface_1_1_tags.html" title="List of Tag stored in a ScriptableObject file in the Asset folder.">Tags</a> file is saved.  <a href="class_nectunia_1_1_property_interface_1_1_tags.html#afc75f76f530bf9914c0b0408045abf85">More...</a><br /></td></tr>
 <tr class="separator:afc75f76f530bf9914c0b0408045abf85"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa49bb8cc9a0fdae549bf2c33a0536be5"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_nectunia_1_1_property_interface_1_1_tags.html">Tags</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nectunia_1_1_property_interface_1_1_tags.html#aa49bb8cc9a0fdae549bf2c33a0536be5">Instance</a><code> [get]</code></td></tr>
+<tr class="memdesc:aa49bb8cc9a0fdae549bf2c33a0536be5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the <a class="el" href="class_nectunia_1_1_property_interface_1_1_tags.html" title="List of Tag stored in a ScriptableObject file in the Asset folder.">Tags</a> instance.  <a href="class_nectunia_1_1_property_interface_1_1_tags.html#aa49bb8cc9a0fdae549bf2c33a0536be5">More...</a><br /></td></tr>
 <tr class="separator:aa49bb8cc9a0fdae549bf2c33a0536be5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:a3bb28dd5c9923cf5c3147353fb9724f7"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nectunia_1_1_property_interface_1_1_tags.html#a3bb28dd5c9923cf5c3147353fb9724f7">C_DEFAULT_ASSET_FILE_PATH</a> = &quot;Assets/Plugins/PropertyInterface&quot;</td></tr>
+<tr class="memdesc:a3bb28dd5c9923cf5c3147353fb9724f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">The default Path where the <a class="el" href="class_nectunia_1_1_property_interface_1_1_tags.html" title="List of Tag stored in a ScriptableObject file in the Asset folder.">Tags</a> file will be saved.  <a href="class_nectunia_1_1_property_interface_1_1_tags.html#a3bb28dd5c9923cf5c3147353fb9724f7">More...</a><br /></td></tr>
+<tr class="separator:a3bb28dd5c9923cf5c3147353fb9724f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4578f5c87e1d96bd6974285dc612310a"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nectunia_1_1_property_interface_1_1_tags.html#a4578f5c87e1d96bd6974285dc612310a">C_DEFAULT_TAGS_FILE_NAME</a> = &quot;Tags.asset&quot;</td></tr>
+<tr class="memdesc:a4578f5c87e1d96bd6974285dc612310a"><td class="mdescLeft">&#160;</td><td class="mdescRight">The default file name to save the <a class="el" href="class_nectunia_1_1_property_interface_1_1_tags.html" title="List of Tag stored in a ScriptableObject file in the Asset folder.">Tags</a> file.  <a href="class_nectunia_1_1_property_interface_1_1_tags.html#a4578f5c87e1d96bd6974285dc612310a">More...</a><br /></td></tr>
+<tr class="separator:a4578f5c87e1d96bd6974285dc612310a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -132,25 +168,25 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a90d81e5464e0e5518519633df4359b96"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nectunia_1_1_property_interface_1_1_tags.html#a90d81e5464e0e5518519633df4359b96">OnDisable</a> ()</td></tr>
 <tr class="separator:a90d81e5464e0e5518519633df4359b96"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a951a2d542d32b3094c47ea3d159722bc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nectunia_1_1_property_interface_1_1_tags.html#a951a2d542d32b3094c47ea3d159722bc">OnChangedTagList</a> ()</td></tr>
-<tr class="memdesc:a951a2d542d32b3094c47ea3d159722bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handler triggered when <a class="el" href="class_nectunia_1_1_property_interface_1_1_tags.html">Tags</a> has been changed  <a href="class_nectunia_1_1_property_interface_1_1_tags.html#a951a2d542d32b3094c47ea3d159722bc">More...</a><br /></td></tr>
+<tr class="memdesc:a951a2d542d32b3094c47ea3d159722bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handler triggered when <a class="el" href="class_nectunia_1_1_property_interface_1_1_tags.html" title="List of Tag stored in a ScriptableObject file in the Asset folder.">Tags</a> has been changed.  <a href="class_nectunia_1_1_property_interface_1_1_tags.html#a951a2d542d32b3094c47ea3d159722bc">More...</a><br /></td></tr>
 <tr class="separator:a951a2d542d32b3094c47ea3d159722bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abc78caebb20c09bdaf4adafe25f8897e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nectunia_1_1_property_interface_1_1_tags.html#abc78caebb20c09bdaf4adafe25f8897e">OnChangedTag</a> (<a class="el" href="class_nectunia_1_1_property_interface_1_1_tag.html">Tag</a> tag)</td></tr>
-<tr class="memdesc:abc78caebb20c09bdaf4adafe25f8897e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handler triggered when a <a class="el" href="class_nectunia_1_1_property_interface_1_1_tag.html">Tag</a> is delete to the <a class="el" href="class_nectunia_1_1_property_interface_1_1_tag.html">Tag</a> list  <a href="class_nectunia_1_1_property_interface_1_1_tags.html#abc78caebb20c09bdaf4adafe25f8897e">More...</a><br /></td></tr>
+<tr class="memdesc:abc78caebb20c09bdaf4adafe25f8897e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handler triggered when a <a class="el" href="class_nectunia_1_1_property_interface_1_1_tag.html" title="Class used by MonoBehaviorTagged component to know wich other MonoBehaviorTagged component it can int...">Tag</a> is delete to the <a class="el" href="class_nectunia_1_1_property_interface_1_1_tag.html" title="Class used by MonoBehaviorTagged component to know wich other MonoBehaviorTagged component it can int...">Tag</a> list.  <a href="class_nectunia_1_1_property_interface_1_1_tags.html#abc78caebb20c09bdaf4adafe25f8897e">More...</a><br /></td></tr>
 <tr class="separator:abc78caebb20c09bdaf4adafe25f8897e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a15c1fb73597ebac653408802efa3faf3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nectunia_1_1_property_interface_1_1_tags.html#a15c1fb73597ebac653408802efa3faf3">OnAfterUndoRedo</a> ()</td></tr>
-<tr class="memdesc:a15c1fb73597ebac653408802efa3faf3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Hendler triggered when undo is performed  <a href="class_nectunia_1_1_property_interface_1_1_tags.html#a15c1fb73597ebac653408802efa3faf3">More...</a><br /></td></tr>
+<tr class="memdesc:a15c1fb73597ebac653408802efa3faf3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handler triggered when undo is performed.  <a href="class_nectunia_1_1_property_interface_1_1_tags.html#a15c1fb73597ebac653408802efa3faf3">More...</a><br /></td></tr>
 <tr class="separator:a15c1fb73597ebac653408802efa3faf3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a8858182073371c7b30fd86536d0f1f4b"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nectunia_1_1_property_interface_1_1_tags.html#a8858182073371c7b30fd86536d0f1f4b">OnEditorLoaded</a> ()</td></tr>
-<tr class="memdesc:a8858182073371c7b30fd86536d0f1f4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Force <a class="el" href="class_nectunia_1_1_property_interface_1_1_tags.html">Tags</a> load when Editor is loading  <a href="class_nectunia_1_1_property_interface_1_1_tags.html#a8858182073371c7b30fd86536d0f1f4b">More...</a><br /></td></tr>
+<tr class="memdesc:a8858182073371c7b30fd86536d0f1f4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Force <a class="el" href="class_nectunia_1_1_property_interface_1_1_tags.html" title="List of Tag stored in a ScriptableObject file in the Asset folder.">Tags</a> load when Editor is loading.  <a href="class_nectunia_1_1_property_interface_1_1_tags.html#a8858182073371c7b30fd86536d0f1f4b">More...</a><br /></td></tr>
 <tr class="separator:a8858182073371c7b30fd86536d0f1f4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a37e1a2d13554965561727465491f97a9"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nectunia_1_1_property_interface_1_1_tags.html#a37e1a2d13554965561727465491f97a9">GetGUID</a> ()</td></tr>
-<tr class="memdesc:a37e1a2d13554965561727465491f97a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the GUID of the asset file if it exist  <a href="class_nectunia_1_1_property_interface_1_1_tags.html#a37e1a2d13554965561727465491f97a9">More...</a><br /></td></tr>
+<tr class="memdesc:a37e1a2d13554965561727465491f97a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the GUID of the asset file if it exist.  <a href="class_nectunia_1_1_property_interface_1_1_tags.html#a37e1a2d13554965561727465491f97a9">More...</a><br /></td></tr>
 <tr class="separator:a37e1a2d13554965561727465491f97a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaa54207d7635fd2b2d9b2ab57f134543"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nectunia_1_1_property_interface_1_1_tags.html#aaa54207d7635fd2b2d9b2ab57f134543">SaveAsset</a> ()</td></tr>
-<tr class="memdesc:aaa54207d7635fd2b2d9b2ab57f134543"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save the modifications on the .asset file  <a href="class_nectunia_1_1_property_interface_1_1_tags.html#aaa54207d7635fd2b2d9b2ab57f134543">More...</a><br /></td></tr>
+<tr class="memdesc:aaa54207d7635fd2b2d9b2ab57f134543"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save the modifications on the .asset file.  <a href="class_nectunia_1_1_property_interface_1_1_tags.html#aaa54207d7635fd2b2d9b2ab57f134543">More...</a><br /></td></tr>
 <tr class="separator:aaa54207d7635fd2b2d9b2ab57f134543"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="events"></a>
@@ -183,6 +219,8 @@ Events</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>The path where the <a class="el" href="class_nectunia_1_1_property_interface_1_1_tags.html" title="List of Tag stored in a ScriptableObject file in the Asset folder.">Tags</a> file is saved. </p>
+
 </div>
 </div>
 <a id="aa49bb8cc9a0fdae549bf2c33a0536be5"></a>
@@ -205,6 +243,9 @@ Events</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Get the <a class="el" href="class_nectunia_1_1_property_interface_1_1_tags.html" title="List of Tag stored in a ScriptableObject file in the Asset folder.">Tags</a> instance. </p>
+<p>This should be the only way to access <a class="el" href="class_nectunia_1_1_property_interface_1_1_tags.html" title="List of Tag stored in a ScriptableObject file in the Asset folder.">Tags</a>. </p>
+
 </div>
 </div>
 <a id="a20c0c4d1f657187ae3c27dab88ebfa22"></a>
@@ -226,6 +267,8 @@ Events</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>The <a class="el" href="class_nectunia_1_1_property_interface_1_1_tag.html" title="Class used by MonoBehaviorTagged component to know wich other MonoBehaviorTagged component it can int...">Tag</a> list. </p>
 
 </div>
 </div>
@@ -253,8 +296,8 @@ Events</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Get the GUID of the asset file if it exist </p>
-<dl class="section return"><dt>Returns</dt><dd>The GUID if the file exist, "" otherwise</dd></dl>
+<p>Get the GUID of the asset file if it exist. </p>
+<dl class="section return"><dt>Returns</dt><dd>The GUID if the file exist, "" otherwise.</dd></dl>
 
 </div>
 </div>
@@ -273,7 +316,7 @@ Events</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Hendler triggered when undo is performed </p>
+<p>Handler triggered when undo is performed. </p>
 
 </div>
 </div>
@@ -310,7 +353,7 @@ Events</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Handler triggered when a <a class="el" href="class_nectunia_1_1_property_interface_1_1_tag.html">Tag</a> is delete to the <a class="el" href="class_nectunia_1_1_property_interface_1_1_tag.html">Tag</a> list </p>
+<p>Handler triggered when a <a class="el" href="class_nectunia_1_1_property_interface_1_1_tag.html" title="Class used by MonoBehaviorTagged component to know wich other MonoBehaviorTagged component it can int...">Tag</a> is delete to the <a class="el" href="class_nectunia_1_1_property_interface_1_1_tag.html" title="Class used by MonoBehaviorTagged component to know wich other MonoBehaviorTagged component it can int...">Tag</a> list. </p>
 
 </div>
 </div>
@@ -347,7 +390,7 @@ Events</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Handler triggered when <a class="el" href="class_nectunia_1_1_property_interface_1_1_tags.html">Tags</a> has been changed </p>
+<p>Handler triggered when <a class="el" href="class_nectunia_1_1_property_interface_1_1_tags.html" title="List of Tag stored in a ScriptableObject file in the Asset folder.">Tags</a> has been changed. </p>
 
 </div>
 </div>
@@ -408,7 +451,7 @@ Events</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Force <a class="el" href="class_nectunia_1_1_property_interface_1_1_tags.html">Tags</a> load when Editor is loading </p>
+<p>Force <a class="el" href="class_nectunia_1_1_property_interface_1_1_tags.html" title="List of Tag stored in a ScriptableObject file in the Asset folder.">Tags</a> load when Editor is loading. </p>
 
 </div>
 </div>
@@ -452,7 +495,7 @@ Events</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Save the modifications on the .asset file </p>
+<p>Save the modifications on the .asset file. </p>
 
 </div>
 </div>
@@ -499,6 +542,55 @@ Events</h2></td></tr>
 
 </div>
 </div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a3bb28dd5c9923cf5c3147353fb9724f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3bb28dd5c9923cf5c3147353fb9724f7">&#9670;&nbsp;</a></span>C_DEFAULT_ASSET_FILE_PATH</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const string Nectunia.PropertyInterface.Tags.C_DEFAULT_ASSET_FILE_PATH = &quot;Assets/Plugins/PropertyInterface&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The default Path where the <a class="el" href="class_nectunia_1_1_property_interface_1_1_tags.html" title="List of Tag stored in a ScriptableObject file in the Asset folder.">Tags</a> file will be saved. </p>
+
+</div>
+</div>
+<a id="a4578f5c87e1d96bd6974285dc612310a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4578f5c87e1d96bd6974285dc612310a">&#9670;&nbsp;</a></span>C_DEFAULT_TAGS_FILE_NAME</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const string Nectunia.PropertyInterface.Tags.C_DEFAULT_TAGS_FILE_NAME = &quot;Tags.asset&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The default file name to save the <a class="el" href="class_nectunia_1_1_property_interface_1_1_tags.html" title="List of Tag stored in a ScriptableObject file in the Asset folder.">Tags</a> file. </p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
@@ -506,7 +598,7 @@ Events</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_nectunia.html">Nectunia</a></li><li class="navelem"><a class="el" href="namespace_nectunia_1_1_property_interface.html">PropertyInterface</a></li><li class="navelem"><a class="el" href="class_nectunia_1_1_property_interface_1_1_tags.html">Tags</a></li>
 				<li class="footer">
-					Generated on Mon Sep 14 2020 23:14:55 for PropertyInterface by <a href="http://www.doxygen.org/index.html">
+					Generated on Wed Sep 16 2020 12:13:41 for PropertyInterface by <a href="http://www.doxygen.org/index.html">
 					<img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.20.
 					Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>

@@ -4,11 +4,12 @@ var indexSectionsWithContent =
   1: "abcdefmprt",
   2: "n",
   3: "abcdefgilnoprstuw",
-  4: "_dimnost",
+  4: "_cdimnost",
   5: "asv",
   6: "abcdfilmsv",
-  7: "abceilstvw",
-  8: "o"
+  7: "abcdilstvw",
+  8: "o",
+  9: "w"
 };
 
 var indexSectionNames =
@@ -21,7 +22,8 @@ var indexSectionNames =
   5: "enums",
   6: "enumvalues",
   7: "properties",
-  8: "events"
+  8: "events",
+  9: "pages"
 };
 
 var indexSectionLabels =
@@ -34,6 +36,7 @@ var indexSectionLabels =
   5: "Enumerations",
   6: "Enumerator",
   7: "Properties",
-  8: "Events"
+  8: "Events",
+  9: "Pages"
 };
 

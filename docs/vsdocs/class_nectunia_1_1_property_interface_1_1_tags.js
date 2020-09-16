@@ -16,5 +16,7 @@ var class_nectunia_1_1_property_interface_1_1_tags =
     [ "SaveAsset", "class_nectunia_1_1_property_interface_1_1_tags.html#aaa54207d7635fd2b2d9b2ab57f134543", null ],
     [ "OnAfterUndoRedoCallBack", "class_nectunia_1_1_property_interface_1_1_tags.html#a64fdf8c783d926750bae373d58eb32d3", null ],
     [ "OnChangedTagCallBack", "class_nectunia_1_1_property_interface_1_1_tags.html#a2087aca152d5dd38c69b25cb2d29cc81", null ],
-    [ "OnChangedTagListCallBack", "class_nectunia_1_1_property_interface_1_1_tags.html#a6ad13f2c56ee8e838cf97e5d7fd3578f", null ]
+    [ "OnChangedTagListCallBack", "class_nectunia_1_1_property_interface_1_1_tags.html#a6ad13f2c56ee8e838cf97e5d7fd3578f", null ],
+    [ "C_DEFAULT_ASSET_FILE_PATH", "class_nectunia_1_1_property_interface_1_1_tags.html#a3bb28dd5c9923cf5c3147353fb9724f7", null ],
+    [ "C_DEFAULT_TAGS_FILE_NAME", "class_nectunia_1_1_property_interface_1_1_tags.html#a4578f5c87e1d96bd6974285dc612310a", null ]
 ];

@@ -1,5 +1,6 @@
 var hierarchy =
 [
+    [ "Nectunia.Utility.CountDown", "class_nectunia_1_1_utility_1_1_count_down.html", null ],
     [ "Nectunia.Utility.CriticalChance", "class_nectunia_1_1_utility_1_1_critical_chance.html", null ],
     [ "Nectunia.Utility.CustomIcon", "class_nectunia_1_1_utility_1_1_custom_icon.html", null ],
     [ "Nectunia.PropertyInterface.CustomStyle", "class_nectunia_1_1_property_interface_1_1_custom_style.html", null ],
@@ -46,6 +47,5 @@ var hierarchy =
     ] ],
     [ "Nectunia.PropertyInterface.Tag", "class_nectunia_1_1_property_interface_1_1_tag.html", null ],
     [ "Nectunia.PropertyInterface.TagListWrapper", "class_nectunia_1_1_property_interface_1_1_tag_list_wrapper.html", null ],
-    [ "Nectunia.PropertyInterface.CustomStyle.TagsList", "class_nectunia_1_1_property_interface_1_1_custom_style_1_1_tags_list.html", null ],
-    [ "Nectunia.Utility.Timer", "class_nectunia_1_1_utility_1_1_timer.html", null ]
+    [ "Nectunia.PropertyInterface.CustomStyle.TagsList", "class_nectunia_1_1_property_interface_1_1_custom_style_1_1_tags_list.html", null ]
 ];

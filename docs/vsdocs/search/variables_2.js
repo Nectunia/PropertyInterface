@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['icon_370',['Icon',['../class_nectunia_1_1_property_interface_1_1_tag.html#a9fb540e5e28471fe976cf49628f28937',1,'Nectunia::PropertyInterface::Tag']]],
-  ['id_371',['Id',['../class_nectunia_1_1_property_interface_1_1_tag.html#a3d675858fbb322c00080b69043daefaa',1,'Nectunia::PropertyInterface::Tag']]]
+  ['default_5fvaluestype_373',['DEFAULT_VALUESTYPE',['../class_nectunia_1_1_property_interface_1_1_tag.html#a52075e52b471745f939df4edfd2df4c9',1,'Nectunia::PropertyInterface::Tag']]]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['efficiency_407',['Efficiency',['../class_nectunia_1_1_utility_1_1_critical_chance.html#a4189f55191a3ee8e3258e969a94e4706',1,'Nectunia::Utility::CriticalChance']]]
+  ['duration_411',['Duration',['../class_nectunia_1_1_utility_1_1_count_down.html#a725f0a94a5c3c44f3a8961d5b528c213',1,'Nectunia::Utility::CountDown']]]
 ];
