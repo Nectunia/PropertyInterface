@@ -1,4 +1,4 @@
-[Test](./docs/_index.html)
+[Test](./docs/_mp.html)
 
 ## Welcome to GitHub Pages
 
