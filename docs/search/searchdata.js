@@ -7,7 +7,7 @@ var indexSectionsWithContent =
   4: "_cdimnost",
   5: "asv",
   6: "abcdfilmsv",
-  7: "abcdilstvw",
+  7: "abcdilpstvw",
   8: "o",
   9: "w"
 };

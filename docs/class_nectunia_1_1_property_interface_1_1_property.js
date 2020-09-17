@@ -7,6 +7,7 @@ var class_nectunia_1_1_property_interface_1_1_property =
     [ "AfterUpdateCallbackDelegate", "class_nectunia_1_1_property_interface_1_1_property.html#a8f9b4446859f1abecb5f73715190ffec", null ],
     [ "AtLeastOneSourceIsSet", "class_nectunia_1_1_property_interface_1_1_property.html#a164857ded96117fa7df54751ab1bac45", null ],
     [ "BeforeUpdateCallbackDelegate", "class_nectunia_1_1_property_interface_1_1_property.html#ae6ee977513eb03127d420e9f36f9ad4d", null ],
+    [ "DelayedUpdate", "class_nectunia_1_1_property_interface_1_1_property.html#ac38fc91cde093a46f17a22a50d1c69a4", null ],
     [ "Exists", "class_nectunia_1_1_property_interface_1_1_property.html#a0b5b3d1921d54bcf829b3778c5c8ba02", null ],
     [ "Exists", "class_nectunia_1_1_property_interface_1_1_property.html#a3a57ed43289d390621f6471636706c1a", null ],
     [ "Exists", "class_nectunia_1_1_property_interface_1_1_property.html#aee40ecd13edb01164bc1fdc73f62ec80", null ],
@@ -38,13 +39,14 @@ var class_nectunia_1_1_property_interface_1_1_property =
     [ "GetPropertyInChildren", "class_nectunia_1_1_property_interface_1_1_property.html#a2556509356fdfe27e91e9a9c18741bf8", null ],
     [ "GetPropertyInChildren", "class_nectunia_1_1_property_interface_1_1_property.html#a802a0e056e9025976e5c09a0e173a851", null ],
     [ "GetValuesSystemType", "class_nectunia_1_1_property_interface_1_1_property.html#a063d99ce2ac83a415d94d4ce7a21fd9f", null ],
+    [ "OnDisable", "class_nectunia_1_1_property_interface_1_1_property.html#a5040916d60c8982b9b068d3dfbdf85b3", null ],
+    [ "OnEnable", "class_nectunia_1_1_property_interface_1_1_property.html#af4312241e6b173aeb2c361ef07a03918", null ],
     [ "OnValuesTypeChanged", "class_nectunia_1_1_property_interface_1_1_property.html#a6daf590801e1f22cc3b97caffb5cc35d", null ],
     [ "RefreshValuesObject", "class_nectunia_1_1_property_interface_1_1_property.html#a8fe76e341417d5563d21eb9dbb9ba65d", null ],
     [ "SetValuesComponent", "class_nectunia_1_1_property_interface_1_1_property.html#a8a691eed97092b08f7a3d751582c485d", null ],
     [ "SetValuesSourceType", "class_nectunia_1_1_property_interface_1_1_property.html#a5193a0af36bd23876259362982ab3835", null ],
     [ "SetValuesType", "class_nectunia_1_1_property_interface_1_1_property.html#a0d810f3664e1db0c36a98cb33083d96f", null ],
     [ "SynchronizeValues", "class_nectunia_1_1_property_interface_1_1_property.html#aa9eda4d7f7c0bdcbaf3502d950c9f69c", null ],
-    [ "Update", "class_nectunia_1_1_property_interface_1_1_property.html#ad4d74803173b141b8a9e52a49e0f86f4", null ],
     [ "SourceType", "class_nectunia_1_1_property_interface_1_1_property.html#a1dd5ee2cc6af9189897fb506109db960", [
       [ "Manual", "class_nectunia_1_1_property_interface_1_1_property.html#a1dd5ee2cc6af9189897fb506109db960ae1ba155a9f2e8c3be94020eef32a0301", null ],
       [ "Component", "class_nectunia_1_1_property_interface_1_1_property.html#a1dd5ee2cc6af9189897fb506109db960a2cb05e4bb7830be982f0922fed86b4cd", null ]

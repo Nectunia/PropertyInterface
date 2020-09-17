@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['_5fa_0',['_A',['../class_nectunia_1_1_property_interface_1_1_property.html#a4b40af07b864da27a9fcea82cd73447c',1,'Nectunia.PropertyInterface.Property._A()'],['../class_nectunia_1_1_property_interface_1_1_property_optim.html#abac855702b97fdcfe2d70a79b99379fb',1,'Nectunia.PropertyInterface.PropertyOptim._A()']]],
+  ['_5fa_0',['_A',['../class_nectunia_1_1_property_interface_1_1_property.html#a4b40af07b864da27a9fcea82cd73447c',1,'Nectunia::PropertyInterface::Property']]],
   ['_5fbaseelementname_1',['_baseElementName',['../class_nectunia_1_1_utility_1_1_advanced_reorderable_list.html#a7ab6995990d5894706b9b567939253b9',1,'Nectunia::Utility::AdvancedReorderableList']]],
   ['_5fbasefirstfieldname_2',['_baseFirstFieldName',['../class_nectunia_1_1_utility_1_1_advanced_reorderable_list.html#a6d1c7e0d977adffe92f3fdca8eff2f37',1,'Nectunia::Utility::AdvancedReorderableList']]],
   ['_5ffieldhasbeennamed_3',['_fieldHasBeenNamed',['../class_nectunia_1_1_utility_1_1_advanced_reorderable_list.html#a53ebdcf651b328a5d4e5897be08ee0ec',1,'Nectunia::Utility::AdvancedReorderableList']]],
@@ -13,8 +13,9 @@ var searchData=
   ['_5flistname_10',['_listName',['../class_nectunia_1_1_utility_1_1_advanced_reorderable_list.html#a0b73d8a58b4ded98ee3009c2f9f3922c',1,'Nectunia::Utility::AdvancedReorderableList']]],
   ['_5fnextfocusname_11',['_nextFocusName',['../class_nectunia_1_1_utility_1_1_advanced_reorderable_list.html#a2e6b7dfac9b486a6726f2429f81265c3',1,'Nectunia::Utility::AdvancedReorderableList']]],
   ['_5fowner_12',['_owner',['../class_nectunia_1_1_utility_1_1_advanced_reorderable_list.html#a4fe6401065355d26050bd4666a2b9d6b',1,'Nectunia::Utility::AdvancedReorderableList']]],
-  ['_5ftagid_13',['_tagID',['../class_nectunia_1_1_property_interface_1_1_mono_behavior_tagged.html#a645c6dbf73fd78c4eba17bc2d5f97e08',1,'Nectunia::PropertyInterface::MonoBehaviorTagged']]],
-  ['_5ftagslist_14',['_tagsList',['../class_nectunia_1_1_property_interface_1_1_tag_list_wrapper.html#a0dafaa6ba08ae1352b3194d0e2b2574e',1,'Nectunia::PropertyInterface::TagListWrapper']]],
-  ['_5ftarget_15',['_target',['../class_nectunia_1_1_utility_1_1_follow_target.html#a295b35c36f86474195144c2c1e894ed0',1,'Nectunia::Utility::FollowTarget']]],
-  ['_5fvaluestype_16',['_valuesType',['../class_nectunia_1_1_property_interface_1_1_mono_behavior_tagged.html#af7eeda788d439d6c05ce1d40d83c73ac',1,'Nectunia::PropertyInterface::MonoBehaviorTagged']]]
+  ['_5fproperties_13',['_properties',['../class_nectunia_1_1_property_interface_1_1_property_updater.html#a407b690f3dc5e02a91f9ba2e6d6aeea1',1,'Nectunia::PropertyInterface::PropertyUpdater']]],
+  ['_5ftagid_14',['_tagID',['../class_nectunia_1_1_property_interface_1_1_mono_behavior_tagged.html#a645c6dbf73fd78c4eba17bc2d5f97e08',1,'Nectunia::PropertyInterface::MonoBehaviorTagged']]],
+  ['_5ftagslist_15',['_tagsList',['../class_nectunia_1_1_property_interface_1_1_tag_list_wrapper.html#a0dafaa6ba08ae1352b3194d0e2b2574e',1,'Nectunia::PropertyInterface::TagListWrapper']]],
+  ['_5ftarget_16',['_target',['../class_nectunia_1_1_utility_1_1_follow_target.html#a295b35c36f86474195144c2c1e894ed0',1,'Nectunia::Utility::FollowTarget']]],
+  ['_5fvaluestype_17',['_valuesType',['../class_nectunia_1_1_property_interface_1_1_mono_behavior_tagged.html#af7eeda788d439d6c05ce1d40d83c73ac',1,'Nectunia::PropertyInterface::MonoBehaviorTagged']]]
 ];

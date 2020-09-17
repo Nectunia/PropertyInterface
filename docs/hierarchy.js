@@ -27,9 +27,9 @@ var hierarchy =
           [ "Nectunia.PropertyInterface.Property2", "class_nectunia_1_1_property_interface_1_1_property2.html", null ],
           [ "Nectunia.PropertyInterface.Property3", "class_nectunia_1_1_property_interface_1_1_property3.html", null ]
         ] ],
-        [ "Nectunia.PropertyInterface.PropertyOptim", "class_nectunia_1_1_property_interface_1_1_property_optim.html", null ],
         [ "Nectunia.PropertyInterface.PropertyTriggerHandler", "class_nectunia_1_1_property_interface_1_1_property_trigger_handler.html", null ]
       ] ],
+      [ "Nectunia.PropertyInterface.PropertyUpdater", "class_nectunia_1_1_property_interface_1_1_property_updater.html", null ],
       [ "Nectunia.Utility.FollowTarget", "class_nectunia_1_1_utility_1_1_follow_target.html", null ]
     ] ],
     [ "PropertyAttribute", null, [

@@ -43,8 +43,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"class_nectunia_1_1_property_interface_1_1_property_optim.html#a055ef9e3f728bf82c374adb0d7e75494",
-"hierarchy.html"
+"class_nectunia_1_1_property_interface_1_1_property_serialization.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
