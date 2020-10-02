@@ -14,6 +14,7 @@ var namespace_nectunia_1_1_property_interface =
     [ "Property2", "class_nectunia_1_1_property_interface_1_1_property2.html", "class_nectunia_1_1_property_interface_1_1_property2" ],
     [ "Property3", "class_nectunia_1_1_property_interface_1_1_property3.html", "class_nectunia_1_1_property_interface_1_1_property3" ],
     [ "PropertySerialization", "class_nectunia_1_1_property_interface_1_1_property_serialization.html", "class_nectunia_1_1_property_interface_1_1_property_serialization" ],
+    [ "PropertyToSlider", "class_nectunia_1_1_property_interface_1_1_property_to_slider.html", "class_nectunia_1_1_property_interface_1_1_property_to_slider" ],
     [ "PropertyTriggerHandler", "class_nectunia_1_1_property_interface_1_1_property_trigger_handler.html", "class_nectunia_1_1_property_interface_1_1_property_trigger_handler" ],
     [ "PropertyUpdater", "class_nectunia_1_1_property_interface_1_1_property_updater.html", "class_nectunia_1_1_property_interface_1_1_property_updater" ],
     [ "PropertyValue", "class_nectunia_1_1_property_interface_1_1_property_value.html", "class_nectunia_1_1_property_interface_1_1_property_value" ],

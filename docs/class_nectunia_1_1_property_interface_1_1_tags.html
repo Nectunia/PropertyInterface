@@ -122,7 +122,9 @@ $(document).ready(function(){initNavTree('class_nectunia_1_1_property_interface_
 <div class="line"> </div>
 <div class="line">Tag tag1 = tagsList.Find(t =&gt; t.Id == tagID1);</div>
 <div class="line">Tag tag2 = tagsList.Find(t =&gt; t.Id == tagID2);</div>
-<div class="line">Tag tag3 = tagsList.Find(t =&gt; t.Id == 3333333333); <span class="comment">// TagID have an implicite conversion with long value</span></div>
+<div class="line"> </div>
+<div class="line">Tag tag3 = Tags.GetTagByID(3333333333) <span class="comment">// TagID have an implicite conversion with long value</span></div>
+<div class="line">Tag tag4 = Tags.GetTagByID(tagID2) </div>
 <div class="line"> </div>
 <div class="line"><span class="comment">// To set a specifique Tag</span></div>
 <div class="line">tagsList[1] = tag1;</div>
@@ -186,6 +188,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a37e1a2d13554965561727465491f97a9"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nectunia_1_1_property_interface_1_1_tags.html#a37e1a2d13554965561727465491f97a9">GetGUID</a> ()</td></tr>
 <tr class="memdesc:a37e1a2d13554965561727465491f97a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the GUID of the asset file if it exist.  <a href="class_nectunia_1_1_property_interface_1_1_tags.html#a37e1a2d13554965561727465491f97a9">More...</a><br /></td></tr>
 <tr class="separator:a37e1a2d13554965561727465491f97a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc90207dec5a47b0aa3df6ee2421b5c3"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_nectunia_1_1_property_interface_1_1_tag.html">Tag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nectunia_1_1_property_interface_1_1_tags.html#adc90207dec5a47b0aa3df6ee2421b5c3">GetTagByID</a> (<a class="el" href="struct_nectunia_1_1_property_interface_1_1_tag_i_d.html">TagID</a> tagID)</td></tr>
+<tr class="memdesc:adc90207dec5a47b0aa3df6ee2421b5c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the GUID of the asset file if it exist.  <a href="class_nectunia_1_1_property_interface_1_1_tags.html#adc90207dec5a47b0aa3df6ee2421b5c3">More...</a><br /></td></tr>
+<tr class="separator:adc90207dec5a47b0aa3df6ee2421b5c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaa54207d7635fd2b2d9b2ab57f134543"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nectunia_1_1_property_interface_1_1_tags.html#aaa54207d7635fd2b2d9b2ab57f134543">SaveAsset</a> ()</td></tr>
 <tr class="memdesc:aaa54207d7635fd2b2d9b2ab57f134543"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save the modifications on the .asset file.  <a href="class_nectunia_1_1_property_interface_1_1_tags.html#aaa54207d7635fd2b2d9b2ab57f134543">More...</a><br /></td></tr>
 <tr class="separator:aaa54207d7635fd2b2d9b2ab57f134543"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -287,6 +292,35 @@ Events</h2></td></tr>
           <td class="memname">static string Nectunia.PropertyInterface.Tags.GetGUID </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the GUID of the asset file if it exist. </p>
+<dl class="section return"><dt>Returns</dt><dd>The GUID if the file exist, "" otherwise.</dd></dl>
+
+</div>
+</div>
+<a id="adc90207dec5a47b0aa3df6ee2421b5c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc90207dec5a47b0aa3df6ee2421b5c3">&#9670;&nbsp;</a></span>GetTagByID()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="class_nectunia_1_1_property_interface_1_1_tag.html">Tag</a> Nectunia.PropertyInterface.Tags.GetTagByID </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_nectunia_1_1_property_interface_1_1_tag_i_d.html">TagID</a>&#160;</td>
+          <td class="paramname"><em>tagID</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -599,7 +633,7 @@ Events</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_nectunia.html">Nectunia</a></li><li class="navelem"><a class="el" href="namespace_nectunia_1_1_property_interface.html">PropertyInterface</a></li><li class="navelem"><a class="el" href="class_nectunia_1_1_property_interface_1_1_tags.html">Tags</a></li>
 				<li class="footer">
-					Generated on Sat Sep 26 2020 15:25:21 for PropertyInterface by <a href="http://www.doxygen.org/index.html">
+					Generated on Fri Oct 2 2020 18:12:20 for PropertyInterface by <a href="http://www.doxygen.org/index.html">
 					<img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.20.
 					Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>

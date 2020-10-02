@@ -36,7 +36,7 @@ var class_nectunia_1_1_property_interface_1_1_mono_behaviour_tagged =
     [ "GetMonoBehaviourTaggedInChildren", "class_nectunia_1_1_property_interface_1_1_mono_behaviour_tagged.html#a7160b0dbb93deadacf9cc78338250f25", null ],
     [ "GetMonoBehaviourTaggedInChildren", "class_nectunia_1_1_property_interface_1_1_mono_behaviour_tagged.html#aa323c1e5e67406024254eda26f13ea03", null ],
     [ "OnTagIDChanged", "class_nectunia_1_1_property_interface_1_1_mono_behaviour_tagged.html#a1fedfa9dc00bedd7840f40b98105da9f", null ],
-    [ "OnValuesTypeChanged", "class_nectunia_1_1_property_interface_1_1_mono_behaviour_tagged.html#a5a36267004715ff179348657de4b4df8", null ],
+    [ "OnValuesTypeChanged", "class_nectunia_1_1_property_interface_1_1_mono_behaviour_tagged.html#a7be57fa876402b606fb4b243eb6b09cf", null ],
     [ "UpdateValuesType", "class_nectunia_1_1_property_interface_1_1_mono_behaviour_tagged.html#aa21723daffde50e8745075c8a618329a", null ],
     [ "WarningUnknownTag", "class_nectunia_1_1_property_interface_1_1_mono_behaviour_tagged.html#a8b16b721479fa4bc9f317e6fdd1bb5d6", null ],
     [ "WarningUpdate", "class_nectunia_1_1_property_interface_1_1_mono_behaviour_tagged.html#a1abd97ead591a36b920f2cebf7858dfe", null ],

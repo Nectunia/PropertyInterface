@@ -4,6 +4,7 @@ var class_nectunia_1_1_property_interface_1_1_tags =
     [ "Instance", "class_nectunia_1_1_property_interface_1_1_tags.html#aa49bb8cc9a0fdae549bf2c33a0536be5", null ],
     [ "TagsList", "class_nectunia_1_1_property_interface_1_1_tags.html#a20c0c4d1f657187ae3c27dab88ebfa22", null ],
     [ "GetGUID", "class_nectunia_1_1_property_interface_1_1_tags.html#a37e1a2d13554965561727465491f97a9", null ],
+    [ "GetTagByID", "class_nectunia_1_1_property_interface_1_1_tags.html#adc90207dec5a47b0aa3df6ee2421b5c3", null ],
     [ "OnAfterUndoRedo", "class_nectunia_1_1_property_interface_1_1_tags.html#a15c1fb73597ebac653408802efa3faf3", null ],
     [ "OnAfterUndoRedoDelegate", "class_nectunia_1_1_property_interface_1_1_tags.html#a0288d3673643677da02072e7fd1aad5e", null ],
     [ "OnChangedTag", "class_nectunia_1_1_property_interface_1_1_tags.html#abc78caebb20c09bdaf4adafe25f8897e", null ],
