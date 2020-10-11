@@ -1,5 +1,6 @@
 var class_nectunia_1_1_property_interface_1_1_mono_behaviour_tagged =
 [
+    [ "Icon", "class_nectunia_1_1_property_interface_1_1_mono_behaviour_tagged.html#a1159db4dec5428078d5065ca77c4296b", null ],
     [ "Tag", "class_nectunia_1_1_property_interface_1_1_mono_behaviour_tagged.html#ae6322ebdc184abc854ecc88fcb74de25", null ],
     [ "TagID", "class_nectunia_1_1_property_interface_1_1_mono_behaviour_tagged.html#aeb8398ca29ce8154def5d16d803d1e04", null ],
     [ "ValuesType", "class_nectunia_1_1_property_interface_1_1_mono_behaviour_tagged.html#aabb4733b6d97cb463325e99099d618a0", null ],
@@ -38,6 +39,7 @@ var class_nectunia_1_1_property_interface_1_1_mono_behaviour_tagged =
     [ "OnTagIDChanged", "class_nectunia_1_1_property_interface_1_1_mono_behaviour_tagged.html#a1fedfa9dc00bedd7840f40b98105da9f", null ],
     [ "OnValuesTypeChanged", "class_nectunia_1_1_property_interface_1_1_mono_behaviour_tagged.html#a7be57fa876402b606fb4b243eb6b09cf", null ],
     [ "UpdateValuesType", "class_nectunia_1_1_property_interface_1_1_mono_behaviour_tagged.html#aa21723daffde50e8745075c8a618329a", null ],
+    [ "WarningIconUpdated", "class_nectunia_1_1_property_interface_1_1_mono_behaviour_tagged.html#ad68748f61348ba728ad4eef63400892a", null ],
     [ "WarningUnknownTag", "class_nectunia_1_1_property_interface_1_1_mono_behaviour_tagged.html#a8b16b721479fa4bc9f317e6fdd1bb5d6", null ],
     [ "WarningUpdate", "class_nectunia_1_1_property_interface_1_1_mono_behaviour_tagged.html#a1abd97ead591a36b920f2cebf7858dfe", null ],
     [ "WarningUpdate", "class_nectunia_1_1_property_interface_1_1_mono_behaviour_tagged.html#a8599991fff1c2480e7d60b9e04726d78", null ],
