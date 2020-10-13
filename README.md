@@ -1,5 +1,3 @@
-Welcome to the PropertyInterface wiki wich will help you to use and extand this powerfull asset.  
-  
 ### Required  
 To use this asset you need :  
 * At least Unity 2019.1.0f2  
