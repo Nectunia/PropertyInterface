@@ -6,6 +6,6 @@ To use this asset you need :
 ### Wiki
 Everything you need to know about this asset can be found in the [wiki](https://github.com/Nectunia/PropertyInterface/wiki)  
 
-### Lets see what this asset can do for you.  
-  
-![WhyUseThisAsset](https://github.com/Nectunia/PropertyInterface/blob/gh-pages/Images/WhyUseThisAsset.png) 
+### Installation
+
+To install this asset you have to use the Unity's Package Manager available in the Window menu.
