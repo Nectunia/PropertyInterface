@@ -8,4 +8,6 @@ Everything you need to know about this asset can be found in the [wiki](https://
 
 ### Installation
 
-To install this asset you have to use the Unity's Package Manager available in the Window menu.
+To install this asset you have to :  
+1. Download it in the Unity's Assetstore  
+2. Use the Unity's Package Manager, available in the Window menu, to manage it.
